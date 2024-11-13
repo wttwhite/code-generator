@@ -21,6 +21,7 @@ public class FreeMarkerTest {
         configuration.setDirectoryForTemplateLoading(new File("src/main/resources/templates"));
         //设置模板文件使用的字符集
         configuration.setDefaultEncoding("utf-8");
+        // 数字格式
         configuration.setNumberFormat("0.######");
 
         //创建模板对象，加载指定模板
